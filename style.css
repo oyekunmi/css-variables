@@ -17,21 +17,22 @@ body{
     align-items: center; /* vertical alignment. Needs vertical hieght */
 }
 
-header > aside.slider,
+aside.slider,
 .instructions{
     position: absolute;
     padding: 1em 2em;
 }
 
-header > aside.slider{
-    right: 10px;
+aside.slider{
+    /* right: 10px; */
+    text-align: center;
     top: 10px;
     background: rgba(0,0,0,0.4);
     border-radius: 5px;
 }
 
 
-header > aside.slider > *{
+aside.slider > *{
     display: block;
 }
 
